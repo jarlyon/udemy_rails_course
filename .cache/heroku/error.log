@@ -318,3 +318,100 @@ Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.her
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:169:7)
 2017/07/12 22:28:33 {"id":"forbidden","message":"You do not have access to the app todoapp."}
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: no plugins installed
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at _class.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/plugins/index.js:26:35)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>

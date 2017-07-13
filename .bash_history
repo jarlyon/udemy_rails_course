@@ -15,3 +15,4 @@ rails s -b $Ip -p $PORT
 rails s -b $IP -p $PORT
 rails console
 rails s -b $IP -p $PORT
+heroku login

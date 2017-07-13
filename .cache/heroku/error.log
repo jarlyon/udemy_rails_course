@@ -4,3 +4,317 @@
 2017/02/20 02:51:43 heroku-cli/5.6.22-f9f7585 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
 2017/02/20 02:51:43 heroku-cli: Updating plugins...
 2017/02/20 02:51:43  done
+2017/07/10 15:51:57 heroku-cli/5.6.22-f9f7585 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 15:51:57 triggering background update
+2017/07/10 15:51:57 heroku-cli/5.6.22-f9f7585 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: update
+2017/07/10 15:51:57 heroku-cli/5.6.22-f9f7585 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 15:51:57 heroku-cli/5.6.22-f9f7585 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: keys:add
+2017/07/10 15:51:57 Email: 
+2017/07/10 15:51:57 heroku-cli: Updating to 5.11.12-8ae9780...
+2017/07/10 15:52:08  ▸    HTTP Error: https://api.heroku.com/login 410 Gone
+2017/07/10 15:52:08 HTTP Error: https://api.heroku.com/login 410 Gone
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/http.go:170 (0x413457)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:337 (0x40456e)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:261 (0x403ba7)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:402 (0x404d25)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/context.go:75 (0x409121)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/start.go:68 (0x41dda2)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/main.go:22 (0x41656a)
+/usr/local/go/src/runtime/proc.go:183 (0x453024)
+/usr/local/go/src/runtime/asm_amd64.s:2086 (0x4815f1)
+2017/07/10 15:52:08  ▸    Invalid response from API.
+ ▸    HTTP 410
+ ▸    {jarlyon@gmail.com Shannon1#}
+ ▸    
+ ▸    Are you behind a proxy?
+ ▸    https://devcenter.heroku.com/articles/using-the-cli#using-an-http-proxy
+2017/07/10 15:52:12  ▸    rename /home/ubuntu/.local/share/heroku/cli /home/ubuntu/.local/share/heroku/tmp/201737068/heroku: invalid cross-device link
+2017/07/10 15:52:12 rename /home/ubuntu/.local/share/heroku/cli /home/ubuntu/.local/share/heroku/tmp/201737068/heroku: invalid cross-device link
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/io.go:328 (0x415730)
+/usr/local/go/src/runtime/asm_amd64.s:479 (0x47eaac)
+/usr/local/go/src/runtime/panic.go:458 (0x451353)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/io.go:184 (0x41485c)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:110 (0x4206cf)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:73 (0x41fc0b)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:50 (0x41f98e)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:33 (0x4244aa)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/start.go:70 (0x41ddde)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/main.go:22 (0x41656a)
+/usr/local/go/src/runtime/proc.go:183 (0x453024)
+/usr/local/go/src/runtime/asm_amd64.s:2086 (0x4815f1)
+2017/07/10 15:52:38 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 15:52:38 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 15:52:38 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: keys:add
+2017/07/10 15:52:38 Email: 
+2017/07/10 15:53:11  ▸    HTTP Error: https://api.heroku.com/login 410 Gone
+2017/07/10 15:53:11 HTTP Error: https://api.heroku.com/login 410 Gone
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/http.go:170 (0x410c17)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:100 (0x40294e)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:24 (0x401f87)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:154 (0x402f85)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/context.go:75 (0x406971)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/start.go:68 (0x41c022)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/main.go:25 (0x413d2a)
+/usr/local/go/src/runtime/proc.go:183 (0x4517a4)
+/usr/local/go/src/runtime/asm_amd64.s:2086 (0x47fd71)
+2017/07/10 15:53:11  ▸    Invalid response from API.
+ ▸    HTTP 410
+ ▸    {jarlyon@gmail.com Shannon1#}
+ ▸    
+ ▸    Are you behind a proxy?
+ ▸    https://devcenter.heroku.com/articles/using-the-cli#using-an-http-proxy
+2017/07/10 15:56:57 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 15:56:57 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 15:56:57 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: login
+2017/07/10 15:58:37 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 15:58:37 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 15:58:57 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 15:58:57 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 15:58:57 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: keys:add
+2017/07/10 15:59:37 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 15:59:37 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 15:59:37 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: create
+2017/07/10 16:00:00 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:00:01 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:00:01 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: rename
+2017/07/10 16:00:01  ▸    Error: No app specified
+ ▸    Usage: heroku rename NEWNAME --app APP
+ ▸    We don't know which app to run this on.
+ ▸    Run this command from inside an app folder or specify which app to use with --app APP
+ ▸    
+ ▸    https://devcenter.heroku.com/articles/using-the-cli#app-commands
+2017/07/10 16:00:49 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:00:50 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:00:50 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: rename
+2017/07/10 16:00:50  ▸    Error: No app specified
+ ▸    Usage: heroku rename NEWNAME --app APP
+ ▸    We don't know which app to run this on.
+ ▸    Run this command from inside an app folder or specify which app to use with --app APP
+ ▸    
+ ▸    https://devcenter.heroku.com/articles/using-the-cli#app-commands
+2017/07/10 16:00:59 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:00:59 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:00:59 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: create
+2017/07/10 16:06:37 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:06:37 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:06:37 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: apps:destroy
+2017/07/10 16:06:38 Error: No app specified.
+USAGE: heroku apps:destroy APPNAME
+    at run (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-apps/commands/apps/destroy.js:11:19)
+    at run.next (<anonymous>)
+    at onFulfilled (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/co/index.js:65:19)
+    at /home/ubuntu/.local/share/heroku/cli/lib/node_modules/co/index.js:54:5
+    at co (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/co/index.js:50:10)
+    at createPromise (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/co/index.js:30:15)
+    at run (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-cli-util/lib/command.js:159:15)
+    at Object.run (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-cli-util/lib/command.js:171:12)
+    at Object.<anonymous> (/home/ubuntu/.cache/heroku/tmp/heroku-script-090173641:20:5)
+    at Module._compile (module.js:571:32)
+2017/07/10 16:07:01 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:07:01 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:07:01 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: apps:destroy
+2017/07/10 16:07:09 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:07:09 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:07:09 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: apps:destroy
+2017/07/10 16:08:33 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:08:33 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:08:33 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: apps:destroy
+2017/07/10 16:08:48 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:08:48 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:08:48 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: apps:destroy
+2017/07/10 16:10:14 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:10:14 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:10:14 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: create
+2017/07/10 16:12:04 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:12:04 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:12:04 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:12:04 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: plugins
+2017/07/10 16:12:11 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:12:11 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:12:11 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: keys:add
+2017/07/10 16:12:59 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:12:59 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:12:59 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: create
+2017/07/10 16:13:52 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:13:52 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:13:52 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: apps:destroy
+2017/07/10 16:15:31 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:15:31 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:15:31 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: git:remote
+2017/07/10 16:15:31 Error: Expected response to be successful, got 403
+    at Request.handleFailure [as _handleFailure] (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-client/lib/request.js:241:11)
+    at Request.<anonymous> (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at concat.then (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-client/lib/request.js:135:16)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2017/07/10 16:15:31 {"id":"forbidden","message":"You do not have access to the app todoapp."}
+2017/07/10 16:15:40 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/10 16:15:40 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/10 16:15:40 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: git:remote
+2017/07/10 16:15:40 Error: Expected response to be successful, got 403
+    at Request.handleFailure [as _handleFailure] (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-client/lib/request.js:241:11)
+    at Request.<anonymous> (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at concat.then (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-client/lib/request.js:135:16)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+2017/07/10 16:15:40 {"id":"forbidden","message":"You do not have access to the app todosapp."}
+2017/07/12 02:06:46 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2017/07/12 02:06:46 triggering background update
+2017/07/12 02:06:46 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: update
+2017/07/12 02:06:46 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2017/07/12 02:06:46 heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: login
+2017/07/12 02:06:47 heroku-cli: Updating plugins...
+2017/07/12 02:06:47  done
+2017/07/12 02:06:48 setting update to v6 channel
+2017/07/12 02:06:48 heroku-cli: Updating to 5.99.0-44a1897... (v6)
+2017/07/12 02:06:50 updated to 5.99.0-44a1897
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: No app specified
+    at Object.parse (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-heroku/lib/flags/app.js:60:35)
+    at Parse.parse (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/parser.js:93:59)
+    at V5.init (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:80:48)
+    at V5.init (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-heroku/lib/command.js:20:17)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:55:30)
+    at Main.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/cli.js:112:32)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+2017/07/12 02:16:48 Error: No key to upload
+    at run (/home/ubuntu/.local/share/heroku/client/node_modules/heroku-apps/lib/commands/keys/add.js:92:19)
+    at run.next (<anonymous>)
+    at onFulfilled (/home/ubuntu/.local/share/heroku/client/node_modules/co/index.js:65:19)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: No app specified
+    at Object.parse (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-heroku/lib/flags/app.js:60:35)
+    at Parse.parse (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/parser.js:93:59)
+    at V5.init (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:80:48)
+    at V5.init (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-heroku/lib/command.js:20:17)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:55:30)
+    at Main.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/cli.js:112:32)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+2017/07/12 02:19:48 Error: No app specified.
+USAGE: heroku apps:destroy APPNAME
+    at run (/home/ubuntu/.local/share/heroku/client/node_modules/heroku-apps/lib/commands/apps/destroy.js:11:19)
+    at run.next (<anonymous>)
+    at onFulfilled (/home/ubuntu/.local/share/heroku/client/node_modules/co/index.js:65:19)
+    at /home/ubuntu/.local/share/heroku/client/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at co (/home/ubuntu/.local/share/heroku/client/node_modules/co/index.js:50:10)
+    at createPromise (/home/ubuntu/.local/share/heroku/client/node_modules/co/index.js:30:15)
+    at run (/home/ubuntu/.local/share/heroku/client/node_modules/heroku-cli-util/lib/command.js:159:15)
+    at Object.run (/home/ubuntu/.local/share/heroku/client/node_modules/heroku-cli-util/lib/command.js:171:12)
+    at V5.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/plugins/legacy.js:60:16)
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: No app specified
+    at Object.parse (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-heroku/lib/flags/app.js:60:35)
+    at Parse.parse (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/parser.js:93:59)
+    at V5.init (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:80:48)
+    at V5.init (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-heroku/lib/command.js:20:17)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:55:30)
+    at Main.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/cli.js:112:32)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>Error: heroku-cli: This CLI is deprecated. Please reinstall from https://cli.heroku.com
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:228:41)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/action.js:53:15)
+    at Output.warn (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/output/index.js:225:17)
+    at Commands.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine/lib/commands/commands.js:28:14)
+    at Function.run (/home/ubuntu/.local/share/heroku/client/node_modules/cli-engine-command/lib/command.js:56:17)
+    at <anonymous>
+2017/07/12 22:28:33 Error: Expected response to be successful, got 403
+    at Request.handleFailure [as _handleFailure] (/home/ubuntu/.local/share/heroku/client/node_modules/heroku-client/lib/request.js:241:11)
+    at Request.<anonymous> (/home/ubuntu/.local/share/heroku/client/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at concat.then (/home/ubuntu/.local/share/heroku/client/node_modules/heroku-client/lib/request.js:135:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+2017/07/12 22:28:33 {"id":"forbidden","message":"You do not have access to the app todoapp."}

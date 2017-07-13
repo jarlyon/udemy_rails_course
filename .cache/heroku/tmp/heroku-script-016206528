@@ -1,0 +1,20 @@
+'use strict'
+process.argv = ["/home/ubuntu/.local/share/heroku/cli/bin/heroku","login"]
+let pluginName = 'heroku-apps'
+let pluginVersion = '2.3.1'
+let topic = 'login'
+let command = ''
+let ctx = {"topic":null,"command":{"topic":"login","plugin":"heroku-apps","usage":"","description":"login with your Heroku credentials","default":false,"help":"","fullHelp":"","hidden":false,"needsApp":false,"wantsApp":false,"needsOrg":false,"wantsOrg":false,"needsAuth":false,"variableArgs":false,"disableAnalytics":false,"args":null,"flags":[{"name":"sso","char":"","description":"login for enterprise users under SSO","hasValue":false,"hidden":false,"required":false}]},"app":"","args":{},"flags":{},"cwd":"/home/ubuntu/workspace","herokuDir":"/home/ubuntu/.cache/heroku","debug":false,"debugHeaders":false,"dev":false,"supportsColor":true,"version":"heroku-cli/5.11.12-8ae9780 (linux-amd64) go1.7.5","apiToken":"","apiHost":"api.heroku.com","apiUrl":"https://api.heroku.com","gitHost":"heroku.com","httpGitHost":"git.heroku.com","auth":{"password":""}}
+ctx.version = ctx.version + ' ' + pluginName + '/' + pluginVersion + ' node-' + process.version
+if (command === '') { command = null }
+let plugin = require(pluginName)
+let cmd = plugin.commands.filter((c) => c.topic === topic && c.command == command)[0]
+
+function handleEPIPE (err) {
+	if (err.errno !== 'EPIPE') throw err
+}
+process.stdout.on('error', handleEPIPE)
+process.stderr.on('error', handleEPIPE)
+if (!ctx.dev) process.on('unhandledRejection', () => { })
+
+cmd.run(ctx)

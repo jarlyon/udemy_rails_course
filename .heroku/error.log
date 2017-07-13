@@ -1,0 +1,16 @@
+Heroku client internal error.
+no implicit conversion of nil into String
+/usr/local/heroku/lib/heroku/jsplugin.rb:216:in `exec'
+/usr/local/heroku/lib/heroku/jsplugin.rb:216:in `run'
+/usr/local/heroku/lib/heroku/jsplugin.rb:79:in `block (2 levels) in commands'
+/usr/local/heroku/lib/heroku/command.rb:213:in `run'
+/usr/local/heroku/lib/heroku/cli.rb:35:in `start'
+/usr/bin/heroku:25:in `<main>'
+Heroku client internal error.
+no implicit conversion of nil into String
+/usr/local/heroku/lib/heroku/jsplugin.rb:216:in `exec'
+/usr/local/heroku/lib/heroku/jsplugin.rb:216:in `run'
+/usr/local/heroku/lib/heroku/jsplugin.rb:79:in `block (2 levels) in commands'
+/usr/local/heroku/lib/heroku/command.rb:213:in `run'
+/usr/local/heroku/lib/heroku/cli.rb:35:in `start'
+/usr/bin/heroku:25:in `<main>'

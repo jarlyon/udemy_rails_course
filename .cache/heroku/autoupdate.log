@@ -1,0 +1,6 @@
+[2017-07-12T22:26:41+00:00] starting `/home/ubuntu/.local/share/heroku/client/bin/heroku update --autoupdate` from version
+[2017-07-12T22:26:42+00:00] heroku-cli: Updating CLI...
+[2017-07-12T22:26:43+00:00] heroku-cli: Updating CLI from 6.12.7-372de2b to 6.12.8-ec1843e... Waiting for all commands to finish
+[2017-07-12T22:27:22+00:00] heroku-cli: Updating CLI from 6.12.7-372de2b to 6.12.8-ec1843e... done
+[2017-07-12T22:27:29+00:00] heroku-cli: Updating CLI... already on latest version: 6.12.8-ec1843e
+[2017-07-12T22:27:29+00:00] heroku-cli: Updating plugins... done
